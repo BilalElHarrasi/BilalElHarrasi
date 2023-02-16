@@ -1,0 +1,1 @@
+web: java -jar path/to/your/app.jar

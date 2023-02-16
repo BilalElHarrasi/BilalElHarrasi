@@ -1,0 +1,4 @@
+[build]
+  command = "./mvnw package"
+  functions = "target/functions/"
+  publish = "target/classes/public"
