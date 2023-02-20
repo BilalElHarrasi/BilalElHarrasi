@@ -1,0 +1,193 @@
+:root {
+    --bankero-primary: #0B72FD;
+    --bankero-primary-light: #1e7cff;
+    --bankero-elephant: #6b6b6b;
+    --bankero-pebble: rgba(27, 27, 27, 0.4);
+    --bankero-profit: #39D499;
+    --bankero-problem: #EB664B;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    color: var(--bankero-primary);
+}
+
+.bg-bankero-primary {
+    background-color: var(--bankero-primary);
+}
+
+.btn {
+    border-radius: 0.8rem;
+
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.btn-primary {
+    color: white;
+    background-color: var(--bankero-primary);
+    border-color: var(--bankero-primary);
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: var(--bankero-primary-light);
+    border-color: var(--bankero-primary-light);
+}
+
+.btn-outline-primary {
+    color: var(--bankero-primary);
+    background-color: white;
+    border-color: var(--bankero-primary);
+}
+
+.btn-outline-primary:hover {
+    color: var(--bankero-primary-light);
+    background-color: white;
+    border-color: var(--bankero-primary-light);
+}
+
+.btn-secondary {
+    color: var(--bankero-primary);
+    background-color: white;
+    border-color: white;
+}
+
+.btn-secondary:hover {
+    color: var(--bankero-primary-light);
+    background-color: white;
+    border-color: white;
+}
+
+.btn-outline-secondary {
+    color: white;
+    background-color: var(--bankero-primary);
+    border-color: white;
+}
+
+.btn-outline-secondary:hover {
+    color: white;
+    background-color: var(--bankero-primary-light);
+    border-color: white;
+}
+
+.bg-bankero-primary p {
+    font-size: 22px;
+    color: #FFFFFFA6;
+}
+
+#features p {
+    font-size: 16px;
+    color: var(--bankero-elephant);
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.dialog-msg {
+    background-color: white;
+    color: var(--bankero-elephant);
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 350px;
+    z-index: 3005;
+    border-radius: 24px;
+    padding: 3rem 4rem;
+    -webkit-box-shadow: 0px 9px 43px -12px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0px 9px 43px -12px rgba(0,0,0,0.29);
+    box-shadow: 0px 9px 43px -12px rgba(0,0,0,0.29);
+}
+
+.dialog-msg img {
+    height: 48px;
+    width: 48px;
+    margin-bottom: 1rem;
+}
+
+footer h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer a {
+    font-size: 12px;
+    display: block;
+    color: var(--bankero-elephant);
+    margin-bottom: 16px;
+}
+
+#account-detail-overview h1 {
+    font-weight: 300;
+    font-size: 48px;
+}
+
+#account-detail-overview h5 {
+    font-size: 12px;
+    color: var(--bankero-pebble);
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.smol-btn {
+    font-size: 11px;
+}
+
+.tx {
+    border-radius: 24px;
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 8px -2px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 4px 8px -2px rgba(0,0,0,0.11);
+    box-shadow: 0px 4px 8px -2px rgba(0,0,0,0.11);
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.tx:hover {
+    transform: scale(1.1);
+}
+
+.tx p {
+    margin-bottom: 0;
+}
+
+.tx-timestamp {
+    font-size: 12px;
+    color: var(--bankero-pebble);
+    font-weight: 100;
+}
+
+.tx-amount {
+    font-weight: 200;
+}
+
+.tx-income {
+    color: var(--bankero-profit);
+}
+
+.tx-expense {
+    color: var(--bankero-problem);
+}
+
+
+
+@media only screen and (min-width: 768px){
+    #hero-section h1 {
+        font-size: 56px;
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    #account-detail-overview h1 {
+        font-size: 72px;
+    }
+}

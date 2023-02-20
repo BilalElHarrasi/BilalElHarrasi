@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bilal El Harrasi</title>
+    <th:block th:include="fragments/cdn.html :: head-cdn"></th:block>
+    <th:block th:include="/fragments/custom.html :: head-custom"></th:block>
+</head>
+<body>
+<header th:replace="fragments/header.html :: header">
+</header>
+<div class="container-fluid bg-primary text-white" id="hero-section">
+    <div class="container">
+        <div class="row min-vh-100 d-flex justify-content-center align-items-center py-5">
+            <div class="col-12 col-md-6 col-lg-4 order-last order-md-first">
+                <h1>Open an account today with Bankero</h1>
+                <p class="mb-4">Get your Bankero account to start spending, sending and saving in minutes</p>
+                <a th:href="@{/register}" class="btn btn-secondary px-5 py-3">Register</a>
+            </div>
+            <div class="col-12 col-md-6 mb-5 mb-md-0">
+                <img th:src="@{/img/bankero-hero-img-01.png}" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid py-5" id="features">
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-4">
+                <h2>Our goal is to secure your financial future</h2>
+                <p>Improve your credit score, get loans at better rates, and gain access to additional Bankero credit
+                    products with the aid of our Credit Builder for a stable financial future.</p>
+                <a href="#">Learn more about building your credit</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <img th:src="@{/img/features/credit-builder.png}" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-4 order-md-last">
+                <h2>We're safeguarding you</h2>
+                <p>Protect the invoices and purchases, even electronic ones, that you make using your Bankero account.
+                    Your insurance will begin the moment you enroll in one of our premium plans!</p>
+                <a href="#">Learn more about insurance</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <img th:src="@{/img/features/insurance.png}" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-4">
+                <h2>Fast is what we do</h2>
+                <p>Enjoy fast top-ups, on-the-spot accounts, and real-time spending alerts. It's quick and simple to
+                    open a mobile money account with us. Adding money, too? even simpler We'll get you operational in no
+                    time.</p>
+                <a href="#">Learn more about our product</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <img th:src="@{/img/features/product.png}" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-4 order-md-last">
+                <h2>We're turning global local</h2>
+                <p>To spend money overseas like a local, open online accounts in many currencies. No matter the nation
+                    or currency, send money for free when sending between Bankero accounts. Through our network, money
+                    may be sent and received immediately and without any expenses.</p>
+                <a href="#">Learn more about our supported currencies</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <img th:src="@{/img/features/global.png}" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-bankero-primary text-white" id="register-cta">
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-10 text-center py-5 my-5">
+                <h2 class="mb-4">Sign up with Bankero today</h2>
+                <p class="mb-4">So why are you still waiting? Join the nearly 2 million individuals who have used the
+                    internet to improve their money management. Open a Bankero account right away to get started with
+                    mobile money.</p>
+                <a th:href="@{/register}" class="btn btn-secondary px-5 py-3">Sign up</a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer th:replace="fragments/footer.html :: footer">
+</footer>
+<th:block th:include="fragments/cdn.html :: script-cdn"></th:block>
+</body>
+</html>
