@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar path/to/your/app.jar
+java -jar target/bankero-0.0.1-SNAPSHOT.jar

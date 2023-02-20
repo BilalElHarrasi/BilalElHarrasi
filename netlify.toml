@@ -1,4 +1,3 @@
 [build]
-  command = "./mvnw"
-  functions = "target/functions/"
-  publish = "target/classes/public"
+  command = "./mvnw clean package"
+  publish = "target/classes/be"
