@@ -1,5 +1,4 @@
-[build.command]
-    command = "chmod +x mvnw"
 [build]
+  command = "chmod +x mvnw"
   command = "./mvnw clean package"
   publish = "target/classes/be"
