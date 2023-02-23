@@ -96,7 +96,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
-                    <release>17</release>
+                    <source>17.0.5</source>
+                    <target>17.0.5</target>
                 </configuration>
             </plugin>
         </plugins>
