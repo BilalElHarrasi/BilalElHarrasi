@@ -1,4 +1,4 @@
 [build]
   command = "chmod +x mvnw"
   command = "./mvnw clean package"
-  publish = "target/classes/be"
+  publish = "out/artifacts/bankero_jar"

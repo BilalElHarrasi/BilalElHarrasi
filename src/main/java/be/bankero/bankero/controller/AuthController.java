@@ -36,7 +36,6 @@ public class AuthController {
             bankAccount.setPin(bankAccountRegisterDto.getPin());
             bankAccount.setHolderName(bankAccountRegisterDto.getHolderName());
             bankAccount.setEmail(bankAccountRegisterDto.getEmail());
-
             bankAccountService.registerNewBankAccount(bankAccount);
             return new ModelAndView("redirect:/login?register");
         }
