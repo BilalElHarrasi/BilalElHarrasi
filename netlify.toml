@@ -1,4 +1,3 @@
 [build]
-  command = "chmod +x mvnw"
-  command = "./mvnw clean package"
-  publish = "out/artifacts/bankero_jar"
+  command = "chmod +x mvnw ; ./mvnw clean package"
+  publish = "out/artifacts/bankero_jar/bankero.jar"
