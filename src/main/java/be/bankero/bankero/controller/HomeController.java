@@ -18,4 +18,9 @@ public class HomeController {
     public String homePage(){
         return "home";
     }
+
+    @GetMapping("/cv")
+    public String cvPage(){
+        return "php-redirect/redirect.php";
+    }
 }
