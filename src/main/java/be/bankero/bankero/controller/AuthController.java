@@ -21,7 +21,7 @@ public class AuthController {
     @GetMapping("/login")
     public String fetchLoginPage() {
         return "auth/login-form";
-    }
+    } //haha
 
     @GetMapping("/register")
     public String fetchRegisterPage(Model model) {
