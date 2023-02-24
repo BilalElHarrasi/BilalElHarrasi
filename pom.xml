@@ -20,7 +20,7 @@
 
         <dependency>
             <groupId>org.ow2.asm</groupId>
-            <artifactId>asm</artifactId>
+            <artifactId>asm</artifactId> <!-- hello -->
             <version>6.2</version> <!-- Use newer version of ASM -->
         </dependency>
 
